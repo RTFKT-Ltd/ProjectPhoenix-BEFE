@@ -30,7 +30,7 @@ watch(() => router.currentRoute.value.path, checkAuth)
           <div class="flex gap-4">
             <template v-if="!isAuthenticated">
               <a href="#about" class="text-gray-300 hover:text-white transition-colors">About</a>
-              <a href="#" class="text-gray-300 hover:text-white transition-colors">Features</a>
+              <a href="https://project-phoenix.gitbook.io/documentation" class="text-gray-300 hover:text-white transition-colors">Documentation</a>
               <a href="#auth" class="text-gray-300 hover:text-white transition-colors">Login</a>
             </template>
             <router-link
