@@ -12,7 +12,7 @@
   "dependencies": {
     "@tanstack/vue-query": "^5.62.2",
     "@vueuse/core": "^10.7.0",
-    "@wagmi/vue": "^0.0.68",
+    "@wagmi/vue": "^0.1.10",
     "ethers": "^6.13.4",
     "viem": "^2.21.53",
     "vue": "^3.4.38",
